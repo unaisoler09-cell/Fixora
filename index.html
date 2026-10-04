@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fixora | Soluciona tus problemas tecnológicos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">Fixora</div>
+    </header>
+
+
+    <main id="app">
+
+        <section class="hero">
+
+            <h1>¿Qué problema tienes?</h1>
+
+            <p>
+                Encuentra la causa y solución paso a paso.
+            </p>
+
+        </section>
+
+
+        <section class="search-box">
+
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="Ej: mi móvil se calienta..."
+            >
+
+            <button id="searchButton">
+                Buscar
+            </button>
+
+        </section>
+
+
+        <section class="categories">
+
+            <button class="category-card" data-category="mobile">
+                <span class="category-icon">📱</span>
+                <span>Móviles</span>
+            </button>
+
+
+            <button class="category-card" data-category="computer">
+                <span class="category-icon">💻</span>
+                <span>Ordenadores</span>
+            </button>
+
+
+            <button class="category-card" data-category="console">
+                <span class="category-icon">🎮</span>
+                <span>Consolas</span>
+            </button>
+
+
+            <button class="category-card" data-category="printer">
+                <span class="category-icon">🖨️</span>
+                <span>Impresoras</span>
+            </button>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+        © 2026 Fixora
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
